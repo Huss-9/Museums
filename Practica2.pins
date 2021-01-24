@@ -1,0 +1,1980 @@
+; Sun Dec 13 21:12:05 CET 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([Practica2_Class10000] of  Cuadro
+
+	(Altura 24)
+	(any 1931)
+	(Complejidad 1)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10031])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20001])
+	(Cuadro_Tematica [Practica2_Class20038])
+	(Longitud 33)
+	(Nombre_Cuadro "La persistencia de la memoria")
+	(Relevancia 4)
+	(Sala 4))
+
+([Practica2_Class10025] of  Pintor
+
+	(Nombre_Pintor "Leonardo da Vinci")
+	(Pintor_Cuadros
+		[Practica2_Class30004]
+		[Practica2_Class20000]
+		[Practica2_Class30002])
+	(Pintor_Epocas [Practica2_Class30001])
+	(Pintor_Estilos [Practica2_Class10027])
+	(Pintor_Pais [Practica2_Class30014]))
+
+([Practica2_Class10027] of  Estilo
+
+	(Estilo_Cuadros
+		[Practica2_Class30007]
+		[Practica2_Class30008]
+		[Practica2_Class30019]
+		[Practica2_Class30009]
+		[Practica2_Class30005]
+		[Practica2_Class30004]
+		[Practica2_Class30002]
+		[Practica2_Class20000])
+	(Estilo_Pintores
+		[Practica2_Class10025]
+		[Practica2_Class30006]
+		[Practica2_Class30018])
+	(Nombre_Estilo "Renacimiento Italiano"))
+
+([Practica2_Class10028] of  Estilo
+
+	(Estilo_Cuadros
+		[Practica2_Class30032]
+		[Practica2_Class30038]
+		[Practica2_Class30034]
+		[Practica2_Class30028]
+		[Practica2_Class30020]
+		[Practica2_Class30024]
+		[Practica2_Class30030])
+	(Estilo_Pintores
+		[Practica2_Class30025]
+		[Practica2_Class30022]
+		[Practica2_Class30036]
+		[Practica2_Class30027]
+		[Practica2_Class30029]
+		[Practica2_Class30031]
+		[Practica2_Class20014]
+		[Practica2_Class30033])
+	(Nombre_Estilo "Realismo"))
+
+([Practica2_Class10029] of  Estilo
+
+	(Estilo_Cuadros
+		[Practica2_Class20045]
+		[Practica2_Class20047]
+		[Practica2_Class20049]
+		[Practica2_Class20043]
+		[Practica2_Class20046]
+		[Practica2_Class20042]
+		[Practica2_Class20044]
+		[Practica2_Class20050])
+	(Estilo_Pintores
+		[Practica2_Class20013]
+		[Practica2_Class20010]
+		[Practica2_Class20012]
+		[Practica2_Class20011])
+	(Nombre_Estilo "Impresionismo"))
+
+([Practica2_Class10030] of  Estilo
+
+	(Estilo_Cuadros
+		[Practica2_Class50015]
+		[Practica2_Class50018]
+		[Practica2_Class50019]
+		[Practica2_Class50021]
+		[Practica2_Class50023]
+		[Practica2_Class50025]
+		[Practica2_Class50026]
+		[Practica2_Class50027])
+	(Estilo_Pintores
+		[Practica2_Class50017]
+		[Practica2_Class50022]
+		[Practica2_Class50024]
+		[Practica2_Class50020])
+	(Nombre_Estilo "Gotico"))
+
+([Practica2_Class10031] of  Estilo
+
+	(Estilo_Cuadros
+		[Practica2_Class20039]
+		[Practica2_Class20033]
+		[Practica2_Class20041]
+		[Practica2_Class20034]
+		[Practica2_Class20032]
+		[Practica2_Class10000]
+		[Practica2_Class20035]
+		[Practica2_Class20040])
+	(Estilo_Pintores
+		[Practica2_Class20004]
+		[Practica2_Class20009]
+		[Practica2_Class20007]
+		[Practica2_Class20005]
+		[Practica2_Class20001])
+	(Nombre_Estilo "Surrealismo"))
+
+([Practica2_Class10032] of  Estilo
+
+	(Estilo_Cuadros
+		[Practica2_Class50028]
+		[Practica2_Class50032]
+		[Practica2_Class50033]
+		[Practica2_Class50036]
+		[Practica2_Class50037]
+		[Practica2_Class50038]
+		[Practica2_Class50040]
+		[Practica2_Class50041]
+		[Practica2_Class50042])
+	(Estilo_Pintores
+		[Practica2_Class50030]
+		[Practica2_Class50035]
+		[Practica2_Class50039])
+	(Nombre_Estilo "Rococo"))
+
+([Practica2_Class10033] of  Estilo
+
+	(Estilo_Cuadros
+		[Practica2_Class30053]
+		[Practica2_Class30050]
+		[Practica2_Class30040]
+		[Practica2_Class30042]
+		[Practica2_Class30052]
+		[Practica2_Class30046]
+		[Practica2_Class30044]
+		[Practica2_Class30047])
+	(Estilo_Pintores
+		[Practica2_Class30045]
+		[Practica2_Class30048]
+		[Practica2_Class30041])
+	(Nombre_Estilo "Romanticismo"))
+
+([Practica2_Class20000] of  Cuadro
+
+	(Altura 77)
+	(any 1517)
+	(Complejidad 4)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class10027])
+	(Cuadro_Pais [Practica2_Class30014])
+	(Cuadro_Pintor [Practica2_Class10025])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 53)
+	(Nombre_Cuadro "Mona Lisa")
+	(Relevancia 5)
+	(Sala 1))
+
+([Practica2_Class20001] of  Pintor
+
+	(Nombre_Pintor "Salvador Dali"))
+
+([Practica2_Class20004] of  Pintor
+
+	(Nombre_Pintor "Frida Kahlo"))
+
+([Practica2_Class20005] of  Pintor
+
+	(Nombre_Pintor "Rene Magritte"))
+
+([Practica2_Class20007] of  Pintor
+
+	(Nombre_Pintor "Pablo Picasso"))
+
+([Practica2_Class20009] of  Pintor
+
+	(Nombre_Pintor "Joan Miro"))
+
+([Practica2_Class20010] of  Pintor
+
+	(Nombre_Pintor "Claude Monet"))
+
+([Practica2_Class20011] of  Pintor
+
+	(Nombre_Pintor "Pierre-Auguste Renoir"))
+
+([Practica2_Class20012] of  Pintor
+
+	(Nombre_Pintor "Edouard Manet"))
+
+([Practica2_Class20013] of  Pintor
+
+	(Nombre_Pintor "Berthe Morisot"))
+
+([Practica2_Class20014] of  Pintor
+
+	(Nombre_Pintor "Vincent Van Gogh")
+	(Pintor_Cuadros [Practica2_Class30038])
+	(Pintor_Epocas [Practica2_Class20024])
+	(Pintor_Estilos [Practica2_Class10028])
+	(Pintor_Pais [Practica2_Class30039]))
+
+([Practica2_Class20016] of  Pintor
+
+	(Nombre_Pintor "Paul Gauguin"))
+
+([Practica2_Class20017] of  Pintor
+
+	(Nombre_Pintor "Edward Munch"))
+
+([Practica2_Class20018] of  Estilo
+
+	(Estilo_Cuadros
+		[Practica2_Class20051]
+		[Practica2_Class30000]
+		[Practica2_Class20054]
+		[Practica2_Class20057]
+		[Practica2_Class20052]
+		[Practica2_Class20055])
+	(Estilo_Pintores
+		[Practica2_Class20016]
+		[Practica2_Class20014])
+	(Nombre_Estilo "Posimpresionismo"))
+
+([Practica2_Class20019] of  Estilo
+
+	(Estilo_Cuadros
+		[Practica2_Class20062]
+		[Practica2_Class20058]
+		[Practica2_Class20059])
+	(Estilo_Pintores
+		[Practica2_Class20017]
+		[Practica2_Class20007])
+	(Nombre_Estilo "Expresionismo"))
+
+([Practica2_Class20020] of  Country
+
+	(Nombre_Pais "Francia")
+	(Pais_Cuadros
+		[Practica2_Class30040]
+		[Practica2_Class30042]
+		[Practica2_Class30046]
+		[Practica2_Class30032]
+		[Practica2_Class30044]
+		[Practica2_Class10000]
+		[Practica2_Class20034]
+		[Practica2_Class20035]
+		[Practica2_Class20039]
+		[Practica2_Class20040]
+		[Practica2_Class20042]
+		[Practica2_Class20043]
+		[Practica2_Class20044]
+		[Practica2_Class20045]
+		[Practica2_Class20049]
+		[Practica2_Class20046]
+		[Practica2_Class20050]
+		[Practica2_Class20051]
+		[Practica2_Class20062]
+		[Practica2_Class20054]
+		[Practica2_Class20057]
+		[Practica2_Class20052]
+		[Practica2_Class20055]
+		[Practica2_Class30000]
+		[Practica2_Class50028]
+		[Practica2_Class50032]
+		[Practica2_Class50038]
+		[Practica2_Class50040]
+		[Practica2_Class50041]
+		[Practica2_Class50042])
+	(Pais_Pintores
+		[Practica2_Class30045]
+		[Practica2_Class30041]
+		[Practica2_Class30033]
+		[Practica2_Class20013]
+		[Practica2_Class20010]
+		[Practica2_Class20012]
+		[Practica2_Class20016]
+		[Practica2_Class20011]
+		[Practica2_Class50030]
+		[Practica2_Class50039]))
+
+([Practica2_Class20021] of  Country
+
+	(Nombre_Pais "Belgica")
+	(Pais_Pintores [Practica2_Class20005]))
+
+([Practica2_Class20022] of  Country
+
+	(Nombre_Pais "Mejico")
+	(Pais_Cuadros [Practica2_Class20032])
+	(Pais_Pintores [Practica2_Class20004]))
+
+([Practica2_Class20023] of  Country
+
+	(Nombre_Pais "Alemania")
+	(Pais_Cuadros
+		[Practica2_Class20058]
+		[Practica2_Class20059]))
+
+([Practica2_Class20024] of  Epoca
+
+	(Epoca_Cuadros
+		[Practica2_Class30053]
+		[Practica2_Class30050]
+		[Practica2_Class30040]
+		[Practica2_Class30042]
+		[Practica2_Class30052]
+		[Practica2_Class30026]
+		[Practica2_Class30046]
+		[Practica2_Class30032]
+		[Practica2_Class30038]
+		[Practica2_Class30034]
+		[Practica2_Class30044]
+		[Practica2_Class30028]
+		[Practica2_Class30020]
+		[Practica2_Class30047]
+		[Practica2_Class30024]
+		[Practica2_Class30030]
+		[Practica2_Class20062]
+		[Practica2_Class20045]
+		[Practica2_Class20047]
+		[Practica2_Class20039]
+		[Practica2_Class20058]
+		[Practica2_Class20033]
+		[Practica2_Class20049]
+		[Practica2_Class20043]
+		[Practica2_Class20041]
+		[Practica2_Class20046]
+		[Practica2_Class20034]
+		[Practica2_Class20042]
+		[Practica2_Class20044]
+		[Practica2_Class20032]
+		[Practica2_Class20050]
+		[Practica2_Class20051]
+		[Practica2_Class10000]
+		[Practica2_Class30000]
+		[Practica2_Class20054]
+		[Practica2_Class20035]
+		[Practica2_Class20057]
+		[Practica2_Class20040]
+		[Practica2_Class20059]
+		[Practica2_Class20052]
+		[Practica2_Class20055])
+	(Epoca_Pintores
+		[Practica2_Class30025]
+		[Practica2_Class30045]
+		[Practica2_Class30022]
+		[Practica2_Class30048]
+		[Practica2_Class30041]
+		[Practica2_Class30036]
+		[Practica2_Class30027]
+		[Practica2_Class30029]
+		[Practica2_Class30031]
+		[Practica2_Class20014]
+		[Practica2_Class30033])
+	(Nombre_Epoca "Edad Contemporanea"))
+
+([Practica2_Class20025] of  Tematica
+
+	(Nombre_Tematica "Belico")
+	(Tematica_Cuadros
+		[Practica2_Class30046]
+		[Practica2_Class30034]
+		[Practica2_Class20034]))
+
+([Practica2_Class20027] of  Tematica
+
+	(Nombre_Tematica "Retrato")
+	(Tematica_Cuadros
+		[Practica2_Class30040]
+		[Practica2_Class30042]
+		[Practica2_Class30032]
+		[Practica2_Class30044]
+		[Practica2_Class20000]
+		[Practica2_Class30028]
+		[Practica2_Class30020]
+		[Practica2_Class30002]
+		[Practica2_Class20033]
+		[Practica2_Class20032]
+		[Practica2_Class20040]
+		[Practica2_Class20047]
+		[Practica2_Class20049]
+		[Practica2_Class20046]
+		[Practica2_Class20050]
+		[Practica2_Class20055]
+		[Practica2_Class20062]
+		[Practica2_Class50013]
+		[Practica2_Class50014]
+		[Practica2_Class50036]
+		[Practica2_Class50038]
+		[Practica2_Class50040]))
+
+([Practica2_Class20029] of  Tematica
+
+	(Nombre_Tematica "Paisajistico")
+	(Tematica_Cuadros
+		[Practica2_Class30024]
+		[Practica2_Class20043]
+		[Practica2_Class20042]
+		[Practica2_Class20054]
+		[Practica2_Class20052]))
+
+([Practica2_Class20030] of  Tematica
+
+	(Nombre_Tematica "Urbano")
+	(Tematica_Cuadros
+		[Practica2_Class30026]
+		[Practica2_Class30030]
+		[Practica2_Class20045]
+		[Practica2_Class20044]
+		[Practica2_Class20058]
+		[Practica2_Class20051]
+		[Practica2_Class20059]))
+
+([Practica2_Class20032] of  Cuadro
+
+	(Altura 43)
+	(any 1944)
+	(Complejidad 1)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10031])
+	(Cuadro_Pais [Practica2_Class20022])
+	(Cuadro_Pintor [Practica2_Class20004])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 33)
+	(Nombre_Cuadro "La columna rota")
+	(Relevancia 3)
+	(Sala 4))
+
+([Practica2_Class20033] of  Cuadro
+
+	(Altura 116)
+	(any 1964)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10031])
+	(Cuadro_Pais [Practica2_Class20021])
+	(Cuadro_Pintor [Practica2_Class20005])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 89)
+	(Nombre_Cuadro "El hijo del hombre")
+	(Relevancia 3)
+	(Sala 2))
+
+([Practica2_Class20034] of  Cuadro
+
+	(Altura 349)
+	(any 1937)
+	(Complejidad 5)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10031])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20007])
+	(Cuadro_Tematica [Practica2_Class20025])
+	(Longitud 776)
+	(Nombre_Cuadro "Guernica")
+	(Relevancia 5)
+	(Sala 4))
+
+([Practica2_Class20035] of  Cuadro
+
+	(Altura 49)
+	(any 1948)
+	(Complejidad 2)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10031])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20001])
+	(Cuadro_Tematica [Practica2_Class20037])
+	(Longitud 60)
+	(Nombre_Cuadro "Los Elefantes")
+	(Relevancia 2)
+	(Sala 4))
+
+([Practica2_Class20036] of  Tematica
+
+	(Nombre_Tematica "Cotidiano")
+	(Tematica_Cuadros
+		[Practica2_Class30053]
+		[Practica2_Class30038]
+		[Practica2_Class20039]
+		[Practica2_Class20041]
+		[Practica2_Class30000]
+		[Practica2_Class20057]))
+
+([Practica2_Class20037] of  Tematica
+
+	(Nombre_Tematica "Fauna")
+	(Tematica_Cuadros [Practica2_Class20035]))
+
+([Practica2_Class20038] of  Tematica
+
+	(Nombre_Tematica "Otros")
+	(Tematica_Cuadros
+		[Practica2_Class30052]
+		[Practica2_Class10000]))
+
+([Practica2_Class20039] of  Cuadro
+
+	(Altura 66)
+	(any 1925)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10031])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20009])
+	(Cuadro_Tematica [Practica2_Class20036])
+	(Longitud 93)
+	(Nombre_Cuadro "El carnaval de Arlequin")
+	(Relevancia 2)
+	(Sala 4))
+
+([Practica2_Class20040] of  Cuadro
+
+	(Altura 90)
+	(any 1931)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10031])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20007])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 65)
+	(Nombre_Cuadro "Mujer en sillon rojo")
+	(Relevancia 3)
+	(Sala 4))
+
+([Practica2_Class20041] of  Cuadro
+
+	(Altura 147)
+	(any 1938)
+	(Complejidad 4)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10031])
+	(Cuadro_Pais [Practica2_Class20021])
+	(Cuadro_Pintor [Practica2_Class20005])
+	(Cuadro_Tematica [Practica2_Class20036])
+	(Longitud 99)
+	(Nombre_Cuadro "El tiempo perforado")
+	(Relevancia 1)
+	(Sala 4))
+
+([Practica2_Class20042] of  Cuadro
+
+	(Altura 48)
+	(any 1872)
+	(Complejidad 1)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10029])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20010])
+	(Cuadro_Tematica [Practica2_Class20029])
+	(Longitud 63)
+	(Nombre_Cuadro "Impresion, sol naciente")
+	(Relevancia 5)
+	(Sala 3))
+
+([Practica2_Class20043] of  Cuadro
+
+	(Altura 60)
+	(any 1874)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10029])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20010])
+	(Cuadro_Tematica [Practica2_Class20029])
+	(Longitud 80)
+	(Nombre_Cuadro "El puente de Argenteuil")
+	(Relevancia 2)
+	(Sala 3))
+
+([Practica2_Class20044] of  Cuadro
+
+	(Altura 81)
+	(any 1878)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10029])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20010])
+	(Cuadro_Tematica [Practica2_Class20030])
+	(Longitud 50)
+	(Nombre_Cuadro "La calle Montorgueil")
+	(Relevancia 3)
+	(Sala 3))
+
+([Practica2_Class20045] of  Cuadro
+
+	(Altura 131)
+	(any 1876)
+	(Complejidad 4)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10029])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20011])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 175)
+	(Nombre_Cuadro "Baile en el Moulin de la Galette")
+	(Relevancia 1)
+	(Sala 3))
+
+([Practica2_Class20046] of  Cuadro
+
+	(Altura 100)
+	(any 1881)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10029])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20011])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 81)
+	(Nombre_Cuadro "En la terraza")
+	(Relevancia 2)
+	(Sala 3))
+
+([Practica2_Class20047] of  Cuadro
+
+	(Altura 118)
+	(any 1868)
+	(Complejidad 4)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10029])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20012])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 154)
+	(Nombre_Cuadro "El almuerzo")
+	(Relevancia 2)
+	(Sala 3))
+
+([Practica2_Class20049] of  Cuadro
+
+	(Altura 160)
+	(any 1866)
+	(Complejidad 4)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10029])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20012])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 97)
+	(Nombre_Cuadro "El pifano")
+	(Relevancia 2)
+	(Sala 3))
+
+([Practica2_Class20050] of  Cuadro
+
+	(Altura 56)
+	(any 1872)
+	(Complejidad 2)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10029])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20013])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 46)
+	(Nombre_Cuadro "La cuna")
+	(Relevancia 3)
+	(Sala 3))
+
+([Practica2_Class20051] of  Cuadro
+
+	(Altura 74)
+	(any 1889)
+	(Complejidad 4)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class20018])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20014])
+	(Cuadro_Tematica [Practica2_Class20030])
+	(Longitud 92)
+	(Nombre_Cuadro "La noche estrellada")
+	(Relevancia 5)
+	(Sala 4))
+
+([Practica2_Class20052] of  Cuadro
+
+	(Altura 50)
+	(any 1890)
+	(Complejidad 4)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class20018])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20014])
+	(Cuadro_Tematica [Practica2_Class20029])
+	(Longitud 103)
+	(Nombre_Cuadro "Trigal con cuervos")
+	(Relevancia 3)
+	(Sala 4))
+
+([Practica2_Class20054] of  Cuadro
+
+	(Altura 71)
+	(any 1889)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class20018])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20014])
+	(Cuadro_Tematica [Practica2_Class20029])
+	(Longitud 93)
+	(Nombre_Cuadro "Lirios")
+	(Relevancia 3)
+	(Sala 4))
+
+([Practica2_Class20055] of  Cuadro
+
+	(Altura 73)
+	(any 1888)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class20018])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20016])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 91)
+	(Nombre_Cuadro "Van Gogh pintando girasoles")
+	(Relevancia 4)
+	(Sala 4))
+
+([Practica2_Class20057] of  Cuadro
+
+	(Altura 93)
+	(any 1888)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class20018])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20014])
+	(Cuadro_Tematica [Practica2_Class20036])
+	(Longitud 72)
+	(Nombre_Cuadro "Los girasoles")
+	(Relevancia 4)
+	(Sala 4))
+
+([Practica2_Class20058] of  Cuadro
+
+	(Altura 91)
+	(any 1893)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class20019])
+	(Cuadro_Pais [Practica2_Class20023])
+	(Cuadro_Pintor [Practica2_Class20017])
+	(Cuadro_Tematica [Practica2_Class20030])
+	(Longitud 74)
+	(Nombre_Cuadro "El grito")
+	(Relevancia 4)
+	(Sala 4))
+
+([Practica2_Class20059] of  Cuadro
+
+	(Altura 85)
+	(any 1892)
+	(Complejidad 4)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class20019])
+	(Cuadro_Pais [Practica2_Class20023])
+	(Cuadro_Pintor [Practica2_Class20017])
+	(Cuadro_Tematica [Practica2_Class20030])
+	(Longitud 121)
+	(Nombre_Cuadro "Tarde en Karl Johan")
+	(Relevancia 2)
+	(Sala 4))
+
+([Practica2_Class20062] of  Cuadro
+
+	(Altura 81)
+	(any 1901)
+	(Complejidad 2)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class20019])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20007])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 60)
+	(Nombre_Cuadro "Autorretrato")
+	(Relevancia 3)
+	(Sala 4))
+
+([Practica2_Class30000] of  Cuadro
+
+	(Altura 73)
+	(any 1888)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class20018])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class20016])
+	(Cuadro_Tematica [Practica2_Class20036])
+	(Longitud 92)
+	(Nombre_Cuadro "La vision tras el sermon")
+	(Relevancia 1)
+	(Sala 4))
+
+([Practica2_Class30001] of  Epoca
+
+	(Epoca_Cuadros
+		[Practica2_Class20000]
+		[Practica2_Class30007]
+		[Practica2_Class30008]
+		[Practica2_Class30019]
+		[Practica2_Class30009]
+		[Practica2_Class30005]
+		[Practica2_Class30004]
+		[Practica2_Class20000]
+		[Practica2_Class30002]
+		[Practica2_Class40000]
+		[Practica2_Class50004]
+		[Practica2_Class50005]
+		[Practica2_Class50008]
+		[Practica2_Class50010]
+		[Practica2_Class50011]
+		[Practica2_Class50013]
+		[Practica2_Class50014]
+		[Practica2_Class50025]
+		[Practica2_Class50027]
+		[Practica2_Class50028]
+		[Practica2_Class50032]
+		[Practica2_Class50033]
+		[Practica2_Class50036]
+		[Practica2_Class50037]
+		[Practica2_Class50038]
+		[Practica2_Class50040]
+		[Practica2_Class50041]
+		[Practica2_Class50042])
+	(Epoca_Pintores
+		[Practica2_Class10025]
+		[Practica2_Class30006]
+		[Practica2_Class30018]
+		[Practica2_Class50003]
+		[Practica2_Class50007]
+		[Practica2_Class50009]
+		[Practica2_Class50012]
+		[Practica2_Class50024]
+		[Practica2_Class50030]
+		[Practica2_Class50035]
+		[Practica2_Class50039])
+	(Nombre_Epoca "Edad Moderna"))
+
+([Practica2_Class30002] of  Cuadro
+
+	(Altura 66)
+	(any 1500)
+	(Complejidad 2)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class10027])
+	(Cuadro_Pais [Practica2_Class30014])
+	(Cuadro_Pintor [Practica2_Class10025])
+	(Cuadro_Tematica
+		[Practica2_Class30003]
+		[Practica2_Class20027])
+	(Longitud 45)
+	(Nombre_Cuadro "Salvator Mundi")
+	(Relevancia 5)
+	(Sala 1))
+
+([Practica2_Class30003] of  Tematica
+
+	(Nombre_Tematica "Religioso")
+	(Tematica_Cuadros
+		[Practica2_Class30002]
+		[Practica2_Class30019]
+		[Practica2_Class30007]
+		[Practica2_Class30008]
+		[Practica2_Class30004]
+		[Practica2_Class40000]
+		[Practica2_Class50004]
+		[Practica2_Class50005]
+		[Practica2_Class50011]
+		[Practica2_Class50015]
+		[Practica2_Class50018]
+		[Practica2_Class50019]
+		[Practica2_Class50021]
+		[Practica2_Class50023]
+		[Practica2_Class50025]
+		[Practica2_Class50026]
+		[Practica2_Class50027]))
+
+([Practica2_Class30004] of  Cuadro
+
+	(Altura 460)
+	(any 1498)
+	(Complejidad 5)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class10027])
+	(Cuadro_Pais [Practica2_Class30014])
+	(Cuadro_Pintor [Practica2_Class10025])
+	(Cuadro_Tematica [Practica2_Class30003])
+	(Longitud 880)
+	(Nombre_Cuadro "La ultima cena")
+	(Relevancia 5)
+	(Sala 1))
+
+([Practica2_Class30005] of  Cuadro
+
+	(Altura 120)
+	(any 1506)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class10027])
+	(Cuadro_Pais [Practica2_Class30014])
+	(Cuadro_Pintor [Practica2_Class30006])
+	(Cuadro_Tematica [Practica2_Class30003])
+	(Longitud 120)
+	(Nombre_Cuadro "La Sagrada Familia")
+	(Relevancia 3)
+	(Sala 1))
+
+([Practica2_Class30006] of  Pintor
+
+	(Nombre_Pintor "Michelangelo")
+	(Pintor_Cuadros
+		[Practica2_Class30005]
+		[Practica2_Class30007]
+		[Practica2_Class30008])
+	(Pintor_Epocas [Practica2_Class30001])
+	(Pintor_Estilos [Practica2_Class10027])
+	(Pintor_Pais [Practica2_Class30014]))
+
+([Practica2_Class30007] of  Cuadro
+
+	(Altura 280)
+	(any 1509)
+	(Complejidad 5)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class10027])
+	(Cuadro_Pais [Practica2_Class50043])
+	(Cuadro_Pintor [Practica2_Class30006])
+	(Cuadro_Tematica [Practica2_Class30003])
+	(Longitud 570)
+	(Nombre_Cuadro "Caida del Hombre")
+	(Relevancia 3)
+	(Sala 1))
+
+([Practica2_Class30008] of  Cuadro
+
+	(Altura 280)
+	(any 1511)
+	(Complejidad 5)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class10027])
+	(Cuadro_Pais [Practica2_Class50043])
+	(Cuadro_Pintor [Practica2_Class30006])
+	(Cuadro_Tematica [Practica2_Class30003])
+	(Longitud 570)
+	(Nombre_Cuadro "Dios y Adan")
+	(Relevancia 5)
+	(Sala 1))
+
+([Practica2_Class30009] of  Cuadro
+
+	(Altura 500)
+	(any 1511)
+	(Complejidad 5)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class10027])
+	(Cuadro_Pais [Practica2_Class50043])
+	(Cuadro_Pintor [Practica2_Class30018])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 770)
+	(Nombre_Cuadro "La escuela de Atenas")
+	(Relevancia 4)
+	(Sala 1))
+
+([Practica2_Class30014] of  Country
+
+	(Nombre_Pais "Italia")
+	(Pais_Cuadros
+		[Practica2_Class30007]
+		[Practica2_Class30008]
+		[Practica2_Class30019]
+		[Practica2_Class30009]
+		[Practica2_Class30005]
+		[Practica2_Class30004]
+		[Practica2_Class20000]
+		[Practica2_Class30028]
+		[Practica2_Class30002]
+		[Practica2_Class30030]
+		[Practica2_Class40000]
+		[Practica2_Class50014]
+		[Practica2_Class50015]
+		[Practica2_Class50018]
+		[Practica2_Class50021])
+	(Pais_Pintores
+		[Practica2_Class10025]
+		[Practica2_Class30006]
+		[Practica2_Class30018]
+		[Practica2_Class30029]
+		[Practica2_Class30031]
+		[Practica2_Class50003]
+		[Practica2_Class50017]
+		[Practica2_Class50022]))
+
+([Practica2_Class30018] of  Pintor
+
+	(Nombre_Pintor "Rafael Sanzio")
+	(Pintor_Cuadros
+		[Practica2_Class30019]
+		[Practica2_Class30009])
+	(Pintor_Epocas [Practica2_Class30001])
+	(Pintor_Estilos [Practica2_Class10027])
+	(Pintor_Pais [Practica2_Class30014]))
+
+([Practica2_Class30019] of  Cuadro
+
+	(Altura 500)
+	(any 1509)
+	(Complejidad 5)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class10027])
+	(Cuadro_Pais [Practica2_Class50043])
+	(Cuadro_Pintor [Practica2_Class30018])
+	(Cuadro_Tematica [Practica2_Class30003])
+	(Longitud 770)
+	(Nombre_Cuadro "La disputa del sacramento")
+	(Relevancia 3)
+	(Sala 1))
+
+([Practica2_Class30020] of  Cuadro
+
+	(Altura 47)
+	(any 1867)
+	(Complejidad 1)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10028])
+	(Cuadro_Pais [Practica2_Class30021])
+	(Cuadro_Pintor [Practica2_Class30022])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 37)
+	(Nombre_Cuadro "Retrato de Eduardo Rosales")
+	(Relevancia 3)
+	(Sala 3))
+
+([Practica2_Class30021] of  Country
+
+	(Nombre_Pais "Espana")
+	(Pais_Cuadros
+		[Practica2_Class30020]
+		[Practica2_Class30053]
+		[Practica2_Class30050]
+		[Practica2_Class30052]
+		[Practica2_Class30026]
+		[Practica2_Class30020]
+		[Practica2_Class30047]
+		[Practica2_Class30024]
+		[Practica2_Class50010]
+		[Practica2_Class50008]
+		[Practica2_Class50011]
+		[Practica2_Class50013]
+		[Practica2_Class50019])
+	(Pais_Pintores
+		[Practica2_Class30025]
+		[Practica2_Class30022]
+		[Practica2_Class30048]
+		[Practica2_Class30027]
+		[Practica2_Class20009]
+		[Practica2_Class20007]
+		[Practica2_Class20001]
+		[Practica2_Class50012]
+		[Practica2_Class50020]))
+
+([Practica2_Class30022] of  Pintor
+
+	(Nombre_Pintor "Federico de Madrazo")
+	(Pintor_Cuadros [Practica2_Class30020])
+	(Pintor_Epocas [Practica2_Class20024])
+	(Pintor_Estilos [Practica2_Class10028])
+	(Pintor_Pais [Practica2_Class30021]))
+
+([Practica2_Class30024] of  Cuadro
+
+	(Altura 39)
+	(any 1872)
+	(Complejidad 2)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10028])
+	(Cuadro_Pais [Practica2_Class30021])
+	(Cuadro_Pintor [Practica2_Class30025])
+	(Cuadro_Tematica [Practica2_Class20029])
+	(Longitud 61)
+	(Nombre_Cuadro "Tejera en la montaña del Principe Pio")
+	(Relevancia 4)
+	(Sala 3))
+
+([Practica2_Class30025] of  Pintor
+
+	(Nombre_Pintor "Carlos de Haes")
+	(Pintor_Cuadros [Practica2_Class30024])
+	(Pintor_Epocas [Practica2_Class20024])
+	(Pintor_Estilos [Practica2_Class10028])
+	(Pintor_Pais [Practica2_Class30021]))
+
+([Practica2_Class30026] of  Cuadro
+
+	(Altura 127)
+	(any 1894)
+	(Complejidad 4)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10028])
+	(Cuadro_Pais [Practica2_Class30021])
+	(Cuadro_Pintor [Practica2_Class30027])
+	(Cuadro_Tematica [Practica2_Class20030])
+	(Longitud 162)
+	(Nombre_Cuadro "Garrote Vil")
+	(Relevancia 3)
+	(Sala 3))
+
+([Practica2_Class30027] of  Pintor
+
+	(Nombre_Pintor "Ramón Casas")
+	(Pintor_Cuadros [Practica2_Class30026])
+	(Pintor_Epocas [Practica2_Class20024])
+	(Pintor_Estilos [Practica2_Class10028])
+	(Pintor_Pais [Practica2_Class30021]))
+
+([Practica2_Class30028] of  Cuadro
+
+	(Altura 38)
+	(any 1850)
+	(Complejidad 2)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10028])
+	(Cuadro_Pais [Practica2_Class30014])
+	(Cuadro_Pintor [Practica2_Class30029])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 29)
+	(Nombre_Cuadro "Ragazza di Crespina")
+	(Relevancia 2)
+	(Sala 3))
+
+([Practica2_Class30029] of  Pintor
+
+	(Nombre_Pintor "Silvestro Lega")
+	(Pintor_Cuadros [Practica2_Class30028])
+	(Pintor_Epocas [Practica2_Class20024])
+	(Pintor_Estilos [Practica2_Class10028])
+	(Pintor_Pais [Practica2_Class30014]))
+
+([Practica2_Class30030] of  Cuadro
+
+	(Altura 16)
+	(any 1870)
+	(Complejidad 1)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10028])
+	(Cuadro_Pais [Practica2_Class30014])
+	(Cuadro_Pintor [Practica2_Class30031])
+	(Cuadro_Tematica [Practica2_Class20030])
+	(Longitud 11)
+	(Nombre_Cuadro "Via Torta")
+	(Relevancia 3)
+	(Sala 3))
+
+([Practica2_Class30031] of  Pintor
+
+	(Nombre_Pintor "Telemaco Signorini")
+	(Pintor_Cuadros [Practica2_Class30030])
+	(Pintor_Epocas [Practica2_Class20024])
+	(Pintor_Estilos [Practica2_Class10028])
+	(Pintor_Pais [Practica2_Class30014]))
+
+([Practica2_Class30032] of  Cuadro
+
+	(Altura 158)
+	(any 1889)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10028])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class30033])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 93)
+	(Nombre_Cuadro "La Pastora")
+	(Relevancia 5)
+	(Sala 3))
+
+([Practica2_Class30033] of  Pintor
+
+	(Nombre_Pintor "William Bouguereau")
+	(Pintor_Cuadros [Practica2_Class30032])
+	(Pintor_Epocas [Practica2_Class20024])
+	(Pintor_Estilos [Practica2_Class10028])
+	(Pintor_Pais [Practica2_Class20020]))
+
+([Practica2_Class30034] of  Cuadro
+
+	(Altura 131)
+	(any 1873)
+	(Complejidad 4)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10028])
+	(Cuadro_Pais [Practica2_Class30035])
+	(Cuadro_Pintor [Practica2_Class30036])
+	(Cuadro_Tematica [Practica2_Class20038])
+	(Longitud 281)
+	(Nombre_Cuadro "Los sirgadores del Volga")
+	(Relevancia 4)
+	(Sala 3))
+
+([Practica2_Class30035] of  Country
+
+	(Nombre_Pais "Rusia")
+	(Pais_Cuadros [Practica2_Class30034])
+	(Pais_Pintores [Practica2_Class30036]))
+
+([Practica2_Class30036] of  Pintor
+
+	(Nombre_Pintor "Ilia Repin")
+	(Pintor_Cuadros [Practica2_Class30034])
+	(Pintor_Epocas [Practica2_Class20024])
+	(Pintor_Estilos [Practica2_Class10028])
+	(Pintor_Pais [Practica2_Class30035]))
+
+([Practica2_Class30038] of  Cuadro
+
+	(Altura 82)
+	(any 1883)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10028])
+	(Cuadro_Pais [Practica2_Class30039])
+	(Cuadro_Pintor [Practica2_Class20014])
+	(Cuadro_Tematica [Practica2_Class20036])
+	(Longitud 114)
+	(Nombre_Cuadro "Los comedores de patatas")
+	(Relevancia 3)
+	(Sala 3))
+
+([Practica2_Class30039] of  Country
+
+	(Nombre_Pais "Paises Bajos")
+	(Pais_Cuadros
+		[Practica2_Class30038]
+		[Practica2_Class50004]
+		[Practica2_Class50023]
+		[Practica2_Class50025]
+		[Practica2_Class50026]
+		[Practica2_Class50027])
+	(Pais_Pintores
+		[Practica2_Class20014]
+		[Practica2_Class50007]
+		[Practica2_Class50009]
+		[Practica2_Class50024]))
+
+([Practica2_Class30040] of  Cuadro
+
+	(Altura 45)
+	(any 1845)
+	(Complejidad 2)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10033])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class30041])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 55)
+	(Nombre_Cuadro "El desesperado")
+	(Relevancia 4)
+	(Sala 2))
+
+([Practica2_Class30041] of  Pintor
+
+	(Nombre_Pintor "Gustave Courbet")
+	(Pintor_Cuadros
+		[Practica2_Class30040]
+		[Practica2_Class30042])
+	(Pintor_Epocas [Practica2_Class20024])
+	(Pintor_Estilos [Practica2_Class10033])
+	(Pintor_Pais [Practica2_Class20020]))
+
+([Practica2_Class30042] of  Cuadro
+
+	(Altura 82)
+	(any 1853)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10033])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class30041])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 98)
+	(Nombre_Cuadro "El hombre herido")
+	(Relevancia 3)
+	(Sala 2))
+
+([Practica2_Class30044] of  Cuadro
+
+	(Altura 54)
+	(any 1835)
+	(Complejidad 2)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10033])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class30045])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 44)
+	(Nombre_Cuadro "Léon Riesener")
+	(Relevancia 3)
+	(Sala 2))
+
+([Practica2_Class30045] of  Pintor
+
+	(Nombre_Pintor "Eugene Delacroix")
+	(Pintor_Cuadros
+		[Practica2_Class30046]
+		[Practica2_Class30044])
+	(Pintor_Epocas [Practica2_Class20024])
+	(Pintor_Estilos [Practica2_Class10033])
+	(Pintor_Pais [Practica2_Class20020]))
+
+([Practica2_Class30046] of  Cuadro
+
+	(Altura 260)
+	(any 1830)
+	(Complejidad 5)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10033])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class30045])
+	(Cuadro_Tematica [Practica2_Class20025])
+	(Longitud 325)
+	(Nombre_Cuadro "La libertad guiando al pueblo")
+	(Relevancia 5)
+	(Sala 2))
+
+([Practica2_Class30047] of  Cuadro
+
+	(Altura 146)
+	(any 1823)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10033])
+	(Cuadro_Pais [Practica2_Class30021])
+	(Cuadro_Pintor [Practica2_Class30048])
+	(Cuadro_Tematica [Practica2_Class20038])
+	(Longitud 83)
+	(Nombre_Cuadro "Saturno devorando a un hijo")
+	(Relevancia 5)
+	(Sala 2))
+
+([Practica2_Class30048] of  Pintor
+
+	(Nombre_Pintor "Francisco Goya")
+	(Pintor_Cuadros
+		[Practica2_Class30047]
+		[Practica2_Class30050]
+		[Practica2_Class30053]
+		[Practica2_Class30052])
+	(Pintor_Epocas [Practica2_Class20024])
+	(Pintor_Estilos [Practica2_Class10033])
+	(Pintor_Pais [Practica2_Class30021]))
+
+([Practica2_Class30050] of  Cuadro
+
+	(Altura 116)
+	(any 1812)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10033])
+	(Cuadro_Pais [Practica2_Class30021])
+	(Cuadro_Pintor [Practica2_Class30048])
+	(Cuadro_Tematica [Practica2_Class30051])
+	(Longitud 105)
+	(Nombre_Cuadro "El coloso")
+	(Relevancia 4)
+	(Sala 2))
+
+([Practica2_Class30051] of  Tematica
+
+	(Nombre_Tematica "Mitologia")
+	(Tematica_Cuadros
+		[Practica2_Class30050]
+		[Practica2_Class30047]
+		[Practica2_Class50008]
+		[Practica2_Class50010]
+		[Practica2_Class50041]
+		[Practica2_Class50042]))
+
+([Practica2_Class30052] of  Cuadro
+
+	(Altura 132)
+	(any 1823)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10033])
+	(Cuadro_Pais [Practica2_Class30021])
+	(Cuadro_Pintor [Practica2_Class30048])
+	(Cuadro_Tematica [Practica2_Class20038])
+	(Longitud 79)
+	(Nombre_Cuadro "El perro")
+	(Relevancia 3)
+	(Sala 2))
+
+([Practica2_Class30053] of  Cuadro
+
+	(Altura 50)
+	(any 1823)
+	(Complejidad 2)
+	(Cuadro_Epoca [Practica2_Class20024])
+	(Cuadro_Estilo [Practica2_Class10033])
+	(Cuadro_Pais [Practica2_Class30021])
+	(Cuadro_Pintor [Practica2_Class30048])
+	(Cuadro_Tematica [Practica2_Class20036])
+	(Longitud 84)
+	(Nombre_Cuadro "Dos viejos comiendo sopa")
+	(Relevancia 3)
+	(Sala 2))
+
+([Practica2_Class40000] of  Cuadro
+
+	(Altura 230)
+	(any 1601)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class50002])
+	(Cuadro_Pais [Practica2_Class30014])
+	(Cuadro_Pintor [Practica2_Class50003])
+	(Cuadro_Tematica [Practica2_Class30003])
+	(Longitud 175)
+	(Nombre_Cuadro "Crucifixion de san pedro")
+	(Relevancia 4)
+	(Sala 1))
+
+([Practica2_Class40002] of  Country
+
+	(Nombre_Pais "Noruega")
+	(Pais_Pintores [Practica2_Class20017]))
+
+([Practica2_Class50002] of  Estilo
+
+	(Estilo_Cuadros
+		[Practica2_Class50011]
+		[Practica2_Class40000]
+		[Practica2_Class50005]
+		[Practica2_Class50004]
+		[Practica2_Class50008]
+		[Practica2_Class50010]
+		[Practica2_Class50013]
+		[Practica2_Class50014])
+	(Estilo_Pintores
+		[Practica2_Class50003]
+		[Practica2_Class50007]
+		[Practica2_Class50009]
+		[Practica2_Class50012])
+	(Nombre_Estilo "Barroco"))
+
+([Practica2_Class50003] of  Pintor
+
+	(Nombre_Pintor "Caravaggio")
+	(Pintor_Cuadros
+		[Practica2_Class40000]
+		[Practica2_Class50004])
+	(Pintor_Epocas [Practica2_Class30001])
+	(Pintor_Estilos [Practica2_Class50002])
+	(Pintor_Pais [Practica2_Class30014]))
+
+([Practica2_Class50004] of  Cuadro
+
+	(Altura 160)
+	(any 1633)
+	(Complejidad 2)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class50002])
+	(Cuadro_Pais [Practica2_Class30039])
+	(Cuadro_Pintor [Practica2_Class50003])
+	(Cuadro_Tematica [Practica2_Class30003])
+	(Longitud 128)
+	(Nombre_Cuadro "La tormenta en el mar de Galilea")
+	(Relevancia 3)
+	(Sala 1))
+
+([Practica2_Class50005] of  Cuadro
+
+	(Altura 361)
+	(any 1608)
+	(Complejidad 5)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class50002])
+	(Cuadro_Pais [Practica2_Class50006])
+	(Cuadro_Pintor [Practica2_Class50007])
+	(Cuadro_Tematica [Practica2_Class30003])
+	(Longitud 520)
+	(Nombre_Cuadro "La Decapitacion de san Juan Bautista")
+	(Relevancia 4)
+	(Sala 1))
+
+([Practica2_Class50006] of  Country
+
+	(Nombre_Pais "Malta")
+	(Pais_Cuadros [Practica2_Class50005]))
+
+([Practica2_Class50007] of  Pintor
+
+	(Nombre_Pintor "Rembrandt")
+	(Pintor_Cuadros
+		[Practica2_Class50005]
+		[Practica2_Class50014])
+	(Pintor_Epocas [Practica2_Class30001])
+	(Pintor_Estilos [Practica2_Class50002])
+	(Pintor_Pais [Practica2_Class30039]))
+
+([Practica2_Class50008] of  Cuadro
+
+	(Altura 221)
+	(any 1639)
+	(Complejidad 4)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class50002])
+	(Cuadro_Pais [Practica2_Class30021])
+	(Cuadro_Pintor [Practica2_Class50009])
+	(Cuadro_Tematica [Practica2_Class30051])
+	(Longitud 128)
+	(Nombre_Cuadro "Las tres Gracias")
+	(Relevancia 3)
+	(Sala 1))
+
+([Practica2_Class50009] of  Pintor
+
+	(Nombre_Pintor "Rubens")
+	(Pintor_Cuadros
+		[Practica2_Class50008]
+		[Practica2_Class50010])
+	(Pintor_Epocas [Practica2_Class30001])
+	(Pintor_Estilos [Practica2_Class50002])
+	(Pintor_Pais [Practica2_Class30039]))
+
+([Practica2_Class50010] of  Cuadro
+
+	(Altura 180)
+	(any 1636)
+	(Complejidad 2)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class50002])
+	(Cuadro_Pais [Practica2_Class30021])
+	(Cuadro_Pintor [Practica2_Class50009])
+	(Cuadro_Tematica [Practica2_Class30051])
+	(Longitud 87)
+	(Nombre_Cuadro "Saturno")
+	(Relevancia 3)
+	(Sala 1))
+
+([Practica2_Class50011] of  Cuadro
+
+	(Altura 203)
+	(any 1619)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class50002])
+	(Cuadro_Pais [Practica2_Class30021])
+	(Cuadro_Pintor [Practica2_Class50012])
+	(Cuadro_Tematica [Practica2_Class30003])
+	(Longitud 87)
+	(Nombre_Cuadro "Adoracion de los Reyes Magos")
+	(Relevancia 3)
+	(Sala 1))
+
+([Practica2_Class50012] of  Pintor
+
+	(Nombre_Pintor "Velazquez")
+	(Pintor_Cuadros
+		[Practica2_Class50011]
+		[Practica2_Class50013])
+	(Pintor_Epocas [Practica2_Class30001])
+	(Pintor_Estilos [Practica2_Class50002])
+	(Pintor_Pais [Practica2_Class30021]))
+
+([Practica2_Class50013] of  Cuadro
+
+	(Altura 318)
+	(any 1656)
+	(Complejidad 5)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class50002])
+	(Cuadro_Pais [Practica2_Class30021])
+	(Cuadro_Pintor [Practica2_Class50012])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 276)
+	(Nombre_Cuadro "Las Meninas")
+	(Relevancia 5)
+	(Sala 1))
+
+([Practica2_Class50014] of  Cuadro
+
+	(Altura 143)
+	(any 1634)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class50002])
+	(Cuadro_Pais [Practica2_Class30014])
+	(Cuadro_Pintor [Practica2_Class50007])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 154)
+	(Nombre_Cuadro "Judit en el banquete de Holofernes")
+	(Relevancia 3)
+	(Sala 1))
+
+([Practica2_Class50015] of  Cuadro
+
+	(Altura 200)
+	(any 1306)
+	(Complejidad 4)
+	(Cuadro_Epoca [Practica2_Class50016])
+	(Cuadro_Estilo [Practica2_Class10030])
+	(Cuadro_Pais [Practica2_Class30014])
+	(Cuadro_Pintor [Practica2_Class50017])
+	(Cuadro_Tematica [Practica2_Class30003])
+	(Longitud 185)
+	(Nombre_Cuadro "Huida a Egipto")
+	(Relevancia 3)
+	(Sala 1))
+
+([Practica2_Class50016] of  Epoca
+
+	(Epoca_Cuadros
+		[Practica2_Class50015]
+		[Practica2_Class50018]
+		[Practica2_Class50019]
+		[Practica2_Class50021]
+		[Practica2_Class50023]
+		[Practica2_Class50026])
+	(Epoca_Pintores
+		[Practica2_Class50017]
+		[Practica2_Class50020]
+		[Practica2_Class50022]
+		[Practica2_Class50024])
+	(Nombre_Epoca "Epoca Medieval"))
+
+([Practica2_Class50017] of  Pintor
+
+	(Nombre_Pintor "Giotto")
+	(Pintor_Cuadros
+		[Practica2_Class50015]
+		[Practica2_Class50018])
+	(Pintor_Epocas [Practica2_Class50016])
+	(Pintor_Estilos [Practica2_Class10030])
+	(Pintor_Pais [Practica2_Class30014]))
+
+([Practica2_Class50018] of  Cuadro
+
+	(Altura 200)
+	(any 1305)
+	(Complejidad 4)
+	(Cuadro_Epoca [Practica2_Class50016])
+	(Cuadro_Estilo [Practica2_Class10030])
+	(Cuadro_Pais [Practica2_Class30014])
+	(Cuadro_Pintor [Practica2_Class50017])
+	(Cuadro_Tematica [Practica2_Class30003])
+	(Longitud 185)
+	(Nombre_Cuadro "Pentecostes")
+	(Relevancia 3)
+	(Sala 1))
+
+([Practica2_Class50019] of  Cuadro
+
+	(Altura 500)
+	(any 1340)
+	(Complejidad 4)
+	(Cuadro_Epoca [Practica2_Class50016])
+	(Cuadro_Estilo [Practica2_Class10030])
+	(Cuadro_Pais [Practica2_Class30021])
+	(Cuadro_Pintor [Practica2_Class50020])
+	(Cuadro_Tematica [Practica2_Class30003])
+	(Longitud 300)
+	(Nombre_Cuadro "Coronacion de Maria")
+	(Relevancia 1)
+	(Sala 1))
+
+([Practica2_Class50020] of  Pintor
+
+	(Nombre_Pintor "Jaume Ferrer Bassa")
+	(Pintor_Cuadros [Practica2_Class50019])
+	(Pintor_Epocas [Practica2_Class50016])
+	(Pintor_Estilos [Practica2_Class10030])
+	(Pintor_Pais [Practica2_Class30021]))
+
+([Practica2_Class50021] of  Cuadro
+
+	(Altura 43)
+	(any 1310)
+	(Complejidad 2)
+	(Cuadro_Epoca [Practica2_Class50016])
+	(Cuadro_Estilo [Practica2_Class10030])
+	(Cuadro_Pais [Practica2_Class30014])
+	(Cuadro_Pintor [Practica2_Class50022])
+	(Cuadro_Tematica [Practica2_Class30003])
+	(Longitud 46)
+	(Nombre_Cuadro "Resurrecion de lazaro")
+	(Relevancia 3)
+	(Sala 1))
+
+([Practica2_Class50022] of  Pintor
+
+	(Nombre_Pintor "Duccio")
+	(Pintor_Cuadros [Practica2_Class50021])
+	(Pintor_Epocas [Practica2_Class50016])
+	(Pintor_Estilos [Practica2_Class10030])
+	(Pintor_Pais [Practica2_Class30014]))
+
+([Practica2_Class50023] of  Cuadro
+
+	(Altura 75)
+	(any 1476)
+	(Complejidad 2)
+	(Cuadro_Epoca [Practica2_Class50016])
+	(Cuadro_Estilo [Practica2_Class10030])
+	(Cuadro_Pais [Practica2_Class30039])
+	(Cuadro_Pintor [Practica2_Class50024])
+	(Cuadro_Tematica [Practica2_Class30003])
+	(Longitud 61)
+	(Nombre_Cuadro "Ecce Homo")
+	(Relevancia 3)
+	(Sala 1))
+
+([Practica2_Class50024] of  Pintor
+
+	(Nombre_Pintor "El Bosco")
+	(Pintor_Cuadros
+		[Practica2_Class50023]
+		[Practica2_Class50025]
+		[Practica2_Class50026]
+		[Practica2_Class50027])
+	(Pintor_Epocas
+		[Practica2_Class50016]
+		[Practica2_Class30001])
+	(Pintor_Estilos [Practica2_Class10030])
+	(Pintor_Pais [Practica2_Class30039]))
+
+([Practica2_Class50025] of  Cuadro
+
+	(Altura 220)
+	(any 1505)
+	(Complejidad 5)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class10030])
+	(Cuadro_Pais [Practica2_Class30039])
+	(Cuadro_Pintor [Practica2_Class50024])
+	(Cuadro_Tematica [Practica2_Class30003])
+	(Longitud 389)
+	(Nombre_Cuadro "El Jardin de las delicias")
+	(Relevancia 5)
+	(Sala 2))
+
+([Practica2_Class50026] of  Cuadro
+
+	(Altura 71)
+	(any 1494)
+	(Complejidad 2)
+	(Cuadro_Epoca [Practica2_Class50016])
+	(Cuadro_Estilo [Practica2_Class10030])
+	(Cuadro_Pais [Practica2_Class30039])
+	(Cuadro_Pintor [Practica2_Class50024])
+	(Cuadro_Tematica [Practica2_Class30003])
+	(Longitud 70)
+	(Nombre_Cuadro "El vendedor ambulante")
+	(Relevancia 2)
+	(Sala 1))
+
+([Practica2_Class50027] of  Cuadro
+
+	(Altura 131)
+	(any 1501)
+	(Complejidad 4)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class10030])
+	(Cuadro_Pais [Practica2_Class30039])
+	(Cuadro_Pintor [Practica2_Class50024])
+	(Cuadro_Tematica [Practica2_Class30003])
+	(Longitud 238)
+	(Nombre_Cuadro "Triptico de las tentaciones de san Antonio")
+	(Relevancia 4)
+	(Sala 1))
+
+([Practica2_Class50028] of  Cuadro
+
+	(Altura 76)
+	(any 1730)
+	(Complejidad 2)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class10032])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class50030])
+	(Cuadro_Tematica [Practica2_Class50031])
+	(Longitud 106)
+	(Nombre_Cuadro "The Camargo Dancing")
+	(Relevancia 2)
+	(Sala 2))
+
+([Practica2_Class50030] of  Pintor
+
+	(Nombre_Pintor "Nicolas Lancret")
+	(Pintor_Cuadros
+		[Practica2_Class50028]
+		[Practica2_Class50032])
+	(Pintor_Epocas [Practica2_Class30001])
+	(Pintor_Estilos [Practica2_Class10032])
+	(Pintor_Pais [Practica2_Class20020]))
+
+([Practica2_Class50031] of  Tematica
+
+	(Nombre_Tematica "Realeza")
+	(Tematica_Cuadros
+		[Practica2_Class50028]
+		[Practica2_Class50032]
+		[Practica2_Class50033]
+		[Practica2_Class50037]))
+
+([Practica2_Class50032] of  Cuadro
+
+	(Altura 23)
+	(any 1740)
+	(Complejidad 1)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class10032])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class50030])
+	(Cuadro_Tematica [Practica2_Class50031])
+	(Longitud 36)
+	(Nombre_Cuadro "The servant Justified")
+	(Relevancia 2)
+	(Sala 2))
+
+([Practica2_Class50033] of  Cuadro
+
+	(Altura 70)
+	(any 1743)
+	(Complejidad 2)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class10032])
+	(Cuadro_Pais [Practica2_Class50034])
+	(Cuadro_Pintor [Practica2_Class50035])
+	(Cuadro_Tematica [Practica2_Class50031])
+	(Longitud 90)
+	(Nombre_Cuadro "Casamiento de la moda II")
+	(Relevancia 2)
+	(Sala 2))
+
+([Practica2_Class50034] of  Country
+
+	(Nombre_Pais "Inglaterra")
+	(Pais_Cuadros
+		[Practica2_Class50033]
+		[Practica2_Class50036]
+		[Practica2_Class50037])
+	(Pais_Pintores [Practica2_Class50035]))
+
+([Practica2_Class50035] of  Pintor
+
+	(Nombre_Pintor "William Hogarth")
+	(Pintor_Cuadros
+		[Practica2_Class50033]
+		[Practica2_Class50036]
+		[Practica2_Class50037])
+	(Pintor_Epocas [Practica2_Class30001])
+	(Pintor_Estilos [Practica2_Class10032])
+	(Pintor_Pais [Practica2_Class50034]))
+
+([Practica2_Class50036] of  Cuadro
+
+	(Altura 63)
+	(any 1745)
+	(Complejidad 1)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class10032])
+	(Cuadro_Pais [Practica2_Class50034])
+	(Cuadro_Pintor [Practica2_Class50035])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 52)
+	(Nombre_Cuadro "La vendedora de camarones")
+	(Relevancia 2)
+	(Sala 2))
+
+([Practica2_Class50037] of  Cuadro
+
+	(Altura 62)
+	(any 1735)
+	(Complejidad 2)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class10032])
+	(Cuadro_Pais [Practica2_Class50034])
+	(Cuadro_Pintor [Practica2_Class50035])
+	(Cuadro_Tematica [Practica2_Class50031])
+	(Longitud 75)
+	(Nombre_Cuadro "La orgia")
+	(Relevancia 2)
+	(Sala 2))
+
+([Practica2_Class50038] of  Cuadro
+
+	(Altura 59)
+	(any 1751)
+	(Complejidad 1)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class10032])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class50039])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 73)
+	(Nombre_Cuadro "Joven Recostada")
+	(Relevancia 3)
+	(Sala 2))
+
+([Practica2_Class50039] of  Pintor
+
+	(Nombre_Pintor "Francis Boucher")
+	(Pintor_Cuadros
+		[Practica2_Class50038]
+		[Practica2_Class50040]
+		[Practica2_Class50041]
+		[Practica2_Class50042])
+	(Pintor_Epocas [Practica2_Class30001])
+	(Pintor_Estilos [Practica2_Class10032])
+	(Pintor_Pais [Practica2_Class20020]))
+
+([Practica2_Class50040] of  Cuadro
+
+	(Altura 81)
+	(any 1739)
+	(Complejidad 2)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class10032])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class50039])
+	(Cuadro_Tematica [Practica2_Class20027])
+	(Longitud 65)
+	(Nombre_Cuadro "El Almuerzo")
+	(Relevancia 3)
+	(Sala 2))
+
+([Practica2_Class50041] of  Cuadro
+
+	(Altura 130)
+	(any 1740)
+	(Complejidad 4)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class10032])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class50039])
+	(Cuadro_Tematica [Practica2_Class30051])
+	(Longitud 162)
+	(Nombre_Cuadro "El triunfo de Venus")
+	(Relevancia 4)
+	(Sala 2))
+
+([Practica2_Class50042] of  Cuadro
+
+	(Altura 79)
+	(any 1754)
+	(Complejidad 3)
+	(Cuadro_Epoca [Practica2_Class30001])
+	(Cuadro_Estilo [Practica2_Class10032])
+	(Cuadro_Pais [Practica2_Class20020])
+	(Cuadro_Pintor [Practica2_Class50039])
+	(Cuadro_Tematica [Practica2_Class30051])
+	(Longitud 138)
+	(Nombre_Cuadro "El nacimiento de Venus")
+	(Relevancia 4)
+	(Sala 2))
+
+([Practica2_Class50043] of  Country
+
+	(Nombre_Pais "El vaticano")
+	(Pais_Cuadros [Practica2_Class30008]))

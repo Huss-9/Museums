@@ -1,0 +1,555 @@
+; Sat Dec 12 00:18:57 CET 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(multislot Preferencia_Tematica
+;+		(comment "Relacion entre preferencia y tematica")
+		(type INSTANCE)
+;+		(allowed-classes Tematica)
+		(create-accessor read-write))
+	(single-slot Visita_Tamano
+;+		(comment "Relacion visita tamano")
+		(type INSTANCE)
+;+		(allowed-classes)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Nombre_Cuadro
+;+		(comment "Nombre de un cuadro")
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Practica2_Class17
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Tamano
+;+		(comment "Individuo or Pareja or Grupo Pequeno or Grupo Grande")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Pais
+		(type SYMBOL)
+;+		(allowed-parents)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Numero_Visita
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Estilo_Pintores
+;+		(comment "Relacion entre un estilo y los pintores")
+		(type INSTANCE)
+;+		(allowed-classes Pintor)
+		(create-accessor read-write))
+	(multislot Epoca_Pintores
+;+		(comment "Relacion entre una epoca y los distintos pintores")
+		(type INSTANCE)
+;+		(allowed-classes Pintor)
+		(create-accessor read-write))
+	(single-slot Cuadro_Pais
+;+		(comment "Relacion entre un cuadro y su pais de creación")
+		(type INSTANCE)
+;+		(allowed-classes Country)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Pintor_Epocas
+;+		(comment "Relacion entre un pintor y a las epocas que pertenecio")
+		(type INSTANCE)
+;+		(allowed-classes Epoca)
+		(create-accessor read-write))
+	(single-slot Cuadro_Estilo
+		(type INSTANCE)
+;+		(allowed-classes Estilo)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Preferencia_Cuadros
+;+		(comment "Relacion entre preferencia y cuadro")
+		(type INSTANCE)
+;+		(allowed-classes Cuadro)
+		(create-accessor read-write))
+	(single-slot Practica2_Class0
+		(type INSTANCE)
+;+		(allowed-classes)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Nombre_Pintor
+;+		(comment "Nombre del autor")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot KB_038357_Class16
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Longitud
+		(type INTEGER)
+		(default 0)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Visita_Conocimiento
+;+		(comment "Relacion visita conocimiento")
+		(type INSTANCE)
+;+		(allowed-classes)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Cuadro_Preferencias
+;+		(comment "Relacion entre un cuadro y las preferencias que lo piden")
+		(type INSTANCE)
+;+		(allowed-classes Preferencia)
+		(create-accessor read-write))
+	(multislot Preferencia_Estilos
+;+		(comment "Relacion entre preferencia y estilo")
+		(type INSTANCE)
+;+		(allowed-classes Estilo)
+		(create-accessor read-write))
+	(single-slot Nombre_Epoca
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Altura
+		(type INTEGER)
+		(default 0)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Conocimiento
+		(type INTEGER)
+		(range 0 5)
+		(default 0)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Pais_Pintores
+;+		(comment "Relacion entre un pais y sus pintores")
+		(type INSTANCE)
+;+		(allowed-classes Pintor)
+		(create-accessor read-write))
+	(multislot Epoca_Preferencias
+;+		(comment "Relacion entre una epoca y las distintas preferencias")
+		(type INSTANCE)
+;+		(allowed-classes Preferencia)
+		(create-accessor read-write))
+	(multislot Pintor_Estilos
+;+		(comment "Relacion entre pintos y sus estilos")
+		(type INSTANCE)
+;+		(allowed-classes Estilo)
+		(create-accessor read-write))
+	(multislot Estilo_Preferencias
+;+		(comment "Relacion entre un estilo y las preferencias que lo piden")
+		(type INSTANCE)
+;+		(allowed-classes Preferencia)
+		(create-accessor read-write))
+	(single-slot Pintor_Pais
+;+		(comment "Relacion entre pintor y su pais de origen")
+		(type INSTANCE)
+;+		(allowed-classes Country)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Complejidad
+;+		(comment "Complejidad de un cuadro")
+		(type INTEGER)
+		(range 0 5)
+		(default 0)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Relevancia
+;+		(comment "Relevancia de un cuadro")
+		(type INTEGER)
+		(range 0 5)
+		(default 0)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Visita_dias
+;+		(comment "Dias que durara la visita")
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Preferencia_Pais
+;+		(comment "Relación prefrencia y pais")
+		(type INSTANCE)
+;+		(allowed-classes Country)
+		(create-accessor read-write))
+	(multislot Estilo_Cuadros
+;+		(comment "Relacion entre un estilo y distintos cuadros")
+		(type INSTANCE)
+;+		(allowed-classes Cuadro)
+		(create-accessor read-write))
+	(multislot Tematica_preferencias
+;+		(comment "Relacion tematica y preferencias")
+		(type INSTANCE)
+;+		(allowed-classes Preferencia)
+		(create-accessor read-write))
+	(multislot Pintor_Cuadros
+;+		(comment "Relacion entre pintor y sus cuadros")
+		(type INSTANCE)
+;+		(allowed-classes Cuadro)
+		(create-accessor read-write))
+	(multislot Preferencia_Pintor
+;+		(comment "Relacion entre preferencia y pintor")
+		(type INSTANCE)
+;+		(allowed-classes Pintor)
+		(create-accessor read-write))
+	(single-slot Cuadro_Pintor
+;+		(comment "Relacion entre el cuadro y el pintor que lo pinto")
+		(type INSTANCE)
+;+		(allowed-classes Pintor)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot any
+;+		(comment "año de creacion del cuadro")
+		(type INTEGER)
+		(default 0)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Tematica_Cuadros
+;+		(comment "Relacion tematica y cuadros")
+		(type INSTANCE)
+;+		(allowed-classes Cuadro)
+		(create-accessor read-write))
+	(single-slot Tipo
+;+		(comment "Tipo de Tamaño")
+		(type INTEGER)
+		(range 1 4)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Numero_Preferencia
+		(type INTEGER)
+		(range 0 %3FVARIABLE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Visita_Preferencia
+;+		(comment "Relacion visita preferencia")
+		(type INSTANCE)
+;+		(allowed-classes Preferencia)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Nombre_Estilo
+;+		(comment "Nombre del estilo")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Epoca_Cuadros
+;+		(comment "Relacion entre una epoca y los distintos cuadros")
+		(type INSTANCE)
+;+		(allowed-classes Cuadro)
+		(create-accessor read-write))
+	(multislot Pintor_Preferencias
+		(type INSTANCE)
+;+		(allowed-classes Preferencia)
+		(create-accessor read-write))
+	(multislot Pais_Preferencias
+;+		(comment "Relacion entre un pais y sus preferencias")
+		(type INSTANCE)
+;+		(allowed-classes Preferencia)
+		(create-accessor read-write))
+	(single-slot Cuadro_Epoca
+;+		(comment "Relacion entre cuadro y la epoca en la que se hizo")
+		(type INSTANCE)
+;+		(allowed-classes Epoca)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Nombre_Tematica
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Nombre_Pais
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot KB_038357_Class26
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Pais_Cuadros
+;+		(comment "Relacion entre un pais y los cuadros creados")
+		(type INSTANCE)
+;+		(allowed-classes Cuadro)
+		(create-accessor read-write))
+	(multislot Preferencia_Epoca
+		(type INSTANCE)
+;+		(allowed-classes Epoca)
+		(create-accessor read-write))
+	(multislot Cuadro_Tematica
+;+		(comment "Relacion entre un cuadro y a su tematica")
+		(type INSTANCE)
+;+		(allowed-classes Tematica)
+		(create-accessor read-write))
+	(single-slot Nivel
+		(type INTEGER)
+		(range 1 5)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Sala
+;+		(comment "Sala del cuadro")
+		(type INTEGER)
+		(default -1)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Pintor
+	(is-a USER)
+	(role concrete)
+	(multislot Pintor_Preferencias
+		(type INSTANCE)
+;+		(allowed-classes Preferencia)
+		(create-accessor read-write))
+	(multislot Pintor_Cuadros
+;+		(comment "Relacion entre pintor y sus cuadros")
+		(type INSTANCE)
+;+		(allowed-classes Cuadro)
+		(create-accessor read-write))
+	(multislot Pintor_Estilos
+;+		(comment "Relacion entre pintos y sus estilos")
+		(type INSTANCE)
+;+		(allowed-classes Estilo)
+		(create-accessor read-write))
+	(single-slot Pintor_Pais
+;+		(comment "Relacion entre pintor y su pais de origen")
+		(type INSTANCE)
+;+		(allowed-classes Country)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Nombre_Pintor
+;+		(comment "Nombre del autor")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Pintor_Epocas
+;+		(comment "Relacion entre un pintor y a las epocas que pertenecio")
+		(type INSTANCE)
+;+		(allowed-classes Epoca)
+		(create-accessor read-write)))
+
+(defclass Cuadro "Clase de un cuadro"
+	(is-a USER)
+	(role concrete)
+	(multislot Cuadro_Preferencias
+;+		(comment "Relacion entre un cuadro y las preferencias que lo piden")
+		(type INSTANCE)
+;+		(allowed-classes Preferencia)
+		(create-accessor read-write))
+	(single-slot Cuadro_Epoca
+;+		(comment "Relacion entre cuadro y la epoca en la que se hizo")
+		(type INSTANCE)
+;+		(allowed-classes Epoca)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Nombre_Cuadro
+;+		(comment "Nombre de un cuadro")
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Altura
+		(type INTEGER)
+		(default 0)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Cuadro_Pais
+;+		(comment "Relacion entre un cuadro y su pais de creación")
+		(type INSTANCE)
+;+		(allowed-classes Country)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Cuadro_Tematica
+;+		(comment "Relacion entre un cuadro y a su tematica")
+		(type INSTANCE)
+;+		(allowed-classes Tematica)
+		(create-accessor read-write))
+	(single-slot Cuadro_Estilo
+		(type INSTANCE)
+;+		(allowed-classes Estilo)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Cuadro_Pintor
+;+		(comment "Relacion entre el cuadro y el pintor que lo pinto")
+		(type INSTANCE)
+;+		(allowed-classes Pintor)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot any
+;+		(comment "año de creacion del cuadro")
+		(type INTEGER)
+		(default 0)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Complejidad
+;+		(comment "Complejidad de un cuadro")
+		(type INTEGER)
+		(range 0 5)
+		(default 0)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Relevancia
+;+		(comment "Relevancia de un cuadro")
+		(type INTEGER)
+		(range 0 5)
+		(default 0)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Longitud
+		(type INTEGER)
+		(default 0)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Sala
+;+		(comment "Sala del cuadro")
+		(type INTEGER)
+		(default -1)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Visita "Clase de visita"
+	(is-a USER)
+	(role concrete)
+	(single-slot Conocimiento
+		(type INTEGER)
+		(range 0 5)
+		(default 0)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Tamano
+;+		(comment "Individuo or Pareja or Grupo Pequeno or Grupo Grande")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Visita_dias
+;+		(comment "Dias que durara la visita")
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Visita_Preferencia
+;+		(comment "Relacion visita preferencia")
+		(type INSTANCE)
+;+		(allowed-classes Preferencia)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Visita_Conocimiento
+;+		(comment "Relacion visita conocimiento")
+		(type INSTANCE)
+;+		(allowed-classes)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Country
+	(is-a USER)
+	(role concrete)
+	(multislot Pais_Preferencias
+;+		(comment "Relacion entre un pais y sus preferencias")
+		(type INSTANCE)
+;+		(allowed-classes Preferencia)
+		(create-accessor read-write))
+	(multislot Pais_Pintores
+;+		(comment "Relacion entre un pais y sus pintores")
+		(type INSTANCE)
+;+		(allowed-classes Pintor)
+		(create-accessor read-write))
+	(single-slot Nombre_Pais
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot Pais_Cuadros
+;+		(comment "Relacion entre un pais y los cuadros creados")
+		(type INSTANCE)
+;+		(allowed-classes Cuadro)
+		(create-accessor read-write)))
+
+(defclass Epoca
+	(is-a USER)
+	(role concrete)
+	(multislot Epoca_Preferencias
+;+		(comment "Relacion entre una epoca y las distintas preferencias")
+		(type INSTANCE)
+;+		(allowed-classes Preferencia)
+		(create-accessor read-write))
+	(single-slot Nombre_Epoca
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot Epoca_Pintores
+;+		(comment "Relacion entre una epoca y los distintos pintores")
+		(type INSTANCE)
+;+		(allowed-classes Pintor)
+		(create-accessor read-write))
+	(multislot Epoca_Cuadros
+;+		(comment "Relacion entre una epoca y los distintos cuadros")
+		(type INSTANCE)
+;+		(allowed-classes Cuadro)
+		(create-accessor read-write)))
+
+(defclass Tematica
+	(is-a USER)
+	(role concrete)
+	(single-slot Nombre_Tematica
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Tematica_Cuadros
+;+		(comment "Relacion tematica y cuadros")
+		(type INSTANCE)
+;+		(allowed-classes Cuadro)
+		(create-accessor read-write))
+	(multislot Tematica_preferencias
+;+		(comment "Relacion tematica y preferencias")
+		(type INSTANCE)
+;+		(allowed-classes Preferencia)
+		(create-accessor read-write)))
+
+(defclass Preferencia
+	(is-a USER)
+	(role concrete)
+	(multislot Preferencia_Tematica
+;+		(comment "Relacion entre preferencia y tematica")
+		(type INSTANCE)
+;+		(allowed-classes Tematica)
+		(create-accessor read-write))
+	(multislot Preferencia_Pintor
+;+		(comment "Relacion entre preferencia y pintor")
+		(type INSTANCE)
+;+		(allowed-classes Pintor)
+		(create-accessor read-write))
+	(multislot Preferencia_Cuadros
+;+		(comment "Relacion entre preferencia y cuadro")
+		(type INSTANCE)
+;+		(allowed-classes Cuadro)
+		(create-accessor read-write))
+	(multislot Preferencia_Estilos
+;+		(comment "Relacion entre preferencia y estilo")
+		(type INSTANCE)
+;+		(allowed-classes Estilo)
+		(create-accessor read-write))
+	(multislot Preferencia_Pais
+;+		(comment "Relación prefrencia y pais")
+		(type INSTANCE)
+;+		(allowed-classes Country)
+		(create-accessor read-write))
+	(multislot Preferencia_Epoca
+		(type INSTANCE)
+;+		(allowed-classes Epoca)
+		(create-accessor read-write)))
+
+(defclass Estilo
+	(is-a USER)
+	(role concrete)
+	(multislot Estilo_Preferencias
+;+		(comment "Relacion entre un estilo y las preferencias que lo piden")
+		(type INSTANCE)
+;+		(allowed-classes Preferencia)
+		(create-accessor read-write))
+	(multislot Estilo_Pintores
+;+		(comment "Relacion entre un estilo y los pintores")
+		(type INSTANCE)
+;+		(allowed-classes Pintor)
+		(create-accessor read-write))
+	(multislot Estilo_Cuadros
+;+		(comment "Relacion entre un estilo y distintos cuadros")
+		(type INSTANCE)
+;+		(allowed-classes Cuadro)
+		(create-accessor read-write))
+	(single-slot Nombre_Estilo
+;+		(comment "Nombre del estilo")
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
